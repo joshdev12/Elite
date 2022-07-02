@@ -10,7 +10,7 @@
 }
 
 .navbar-section{
-    background-color: rgb(78, 73, 73);
+    background-color: rgb(78 73 73 / 75%);
     padding: 0.6%;
     position: sticky;
     z-index: 1;
@@ -55,7 +55,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
-    position: relative;
+    /* position: relative; */
 
 }
 
@@ -67,10 +67,72 @@
     position: absolute;
 }
 
+.row-section{
+    background-color: rgb(185, 170, 33);
+    width: 100%;
+    height: 100%;
+}
+
+.row-section-container{
+    width: 100%;
+    height: 100%;
+    padding: 104px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.row-icon1{
+    text-align: center;
+    width: 30%;
+}
 
 
+.inner-row-icon1 i {
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding: 26px;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.inner-row-content{
+    padding: 19px 4px;
+}
+
+.inner-row-content h4 {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.inner-row-content p{
+    padding-top: 1%;
+    font-size: 120%;
+}
 
 
+.row-line1 hr {
+    background: black;
+    width: 272px;
+    height: 3px;
+    position: absolute;
+    top: 32%;
+    left: 28%;
+    border: none;
+}
+
+.row-line2 hr {
+    background: black;
+    width: 272px;
+    height: 3px;
+    position: absolute;
+    top: 32%;
+    left: 55%;
+    border: none;
+}
 
 
 
@@ -95,8 +157,38 @@
         padding: 0;
     }
 
-    .navbar-container{
+    .welcome-section{
+        width: 100%;
+    }
 
+    .welcome-text{
+        width: 100%;
+        padding: 7%;
+        padding-top: 24%;
+    }
+
+    .row-section-container{
+        padding: 3%;
+        width: 100%;
+    }
+
+    .row-icon1{
+        width: 100%;
+    }
+
+    .inner-row-content p{
+        text-align: justify;
+        width: 70%;
+    }
+
+    .row-line1 hr{
+        width: 16%;
+        top: 18%;
+        left: 26%;
+    }
+   
+    .row-line2 hr {
+        width: 20%;
     }
 }
 
@@ -107,7 +199,8 @@
 
     .navbar-menu{
         padding: 0;
-        width: 64%;
+        width: 70%;
+        
     }
 
     .navbar-menu-list a{
@@ -119,9 +212,7 @@
         padding: 0;
     }
 
-    .navbar-container{
-
-    }
+    
 }
 
 @media (max-width:450px){
