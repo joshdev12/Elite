@@ -134,6 +134,70 @@
     border: none;
 }
 
+.destination-container{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.destination-text{
+    text-align: center;
+    font-size: 34px;
+    width: 100%;
+    padding: 31px 0;
+}
+
+.destination-image-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.abuja-image{
+    position: relative;
+}
+
+.abuja-image img{
+    width: 250px;
+}
+
+/* ..abuja-text style for all the texts in the about-section.. */
+.abuja-text{
+    background-color: #0b0a0a4a;
+    position: absolute;
+    height: 20%;
+    color: white;
+    font-size: 24px;
+    top: 75%;
+    left: 0%;
+    text-align: center;
+    width: 249px;
+}
+
+.inner-destination-image{
+    width: 38%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.abuja-section{
+    padding: 0px 30px;
+    width: 50%;
+}
+
+.inner-destination-image2{
+    width: 38%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+
+
 
 
 
@@ -194,6 +258,25 @@
         top: 18%;
         left: 57%;
     }
+
+
+    .destination-image-container{
+        flex-wrap:wrap ;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .inner-destination-image{
+        width: 100%;
+        padding: 10%;
+    }
+
+    .inner-destination-image2{
+        width: 100%;
+        padding: 10%;
+        padding-top: 0;
+    }
+
 }
 
 @media (max-width:1300px){
@@ -244,6 +327,23 @@
         width: 100%;
     }
 
+    .destination-image-container{
+        flex-wrap:wrap ;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .inner-destination-image{
+        width: 100%;
+        padding: 10%;
+    }
+
+    .inner-destination-image2{
+        width: 100%;
+        padding: 10%;
+        padding-top: 0;
+    }
+
     
 }
 
@@ -287,5 +387,38 @@
     }
 
     
+
+   .inner-destination-image{
+        flex-direction: column;
+       
+   }
     
+    .inner-destination-image2{
+        flex-direction: column;
+    }
+}
+
+@media (width: 540px){
+    .inner-destination-image{
+        flex-direction: column; 
+        padding: 0 20%;           
+   }
+    
+    .inner-destination-image2{
+        flex-direction: column;
+        padding: 0 20%;
+    }
+}
+
+@media (max-width:330px){
+    .inner-destination-image{
+        flex-direction: column;
+        padding: 0;
+       
+   }
+    
+    .inner-destination-image2{
+        flex-direction: column;
+        padding: 0;
+    }
 }
