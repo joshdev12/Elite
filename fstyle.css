@@ -52,91 +52,159 @@
     padding: 0 112px;
 }
 
-.welcome-section{
-    background-image: url(image/air.jpg);
-    height: 565px;
+#flight-section{
     width: 100%;
+    height: 100%;
+    background-image: url(image/sunrise-frankfurt-airport.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    /* position: relative; */
-
+    background-size: cover;
+    background-position: 100% 100%;
 }
 
-.welcome-text{
-    color: wheat;
-    width: 100%;
-    padding: 75px 174px;
-    background-color: #00000057;
-    position: absolute;
-}
-
-.row-section{
-    background-color: rgb(219, 217, 212);
+.flight-section-container{
     width: 100%;
     height: 100%;
+    padding: 40px 0;
+   
 }
 
-.row-section-container{
+.flight-booking{
+    background-color: #0000009c;
     width: 100%;
-    height: 100%;
-    padding: 104px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.row-icon1{
-    text-align: center;
-    width: 30%;
-}
-
-
-.inner-row-icon1 i {
-    background-color: blue;
-    height: 80px;
-    width: 80px;
-    text-align: center;
-    padding: 26px;
+    height: 50%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 37px;
     color: white;
-    font-size: 25px;
-    border-radius: 50%;
 }
 
-.inner-row-content{
-    padding: 19px 4px;
-}
-
-.inner-row-content h4 {
-    font-size: 25px;
-    padding: 10px 0px;
-}
-
-.inner-row-content p{
-    padding-top: 1%;
-    font-size: 120%;
+.flight-round-onetrip{
+    padding: 21px 0;
 }
 
 
-.row-line1 hr {
-    background: black;
-    width: 272px;
-    height: 3px;
-    position: absolute;
-    top: 32%;
-    left: 28%;
-    border: none;
+.form-section{
+    display: flex;
+    padding: 29px 0;
+    flex-wrap: wrap;
 }
 
-.row-line2 hr {
-    background: black;
-    width: 272px;
-    height: 3px;
-    position: absolute;
-    top: 32%;
-    left: 55%;
-    border: none;
+.first-lineform-2a{
+    padding: 0 70px;
 }
+
+.first-lineform-input{
+    display: table;
+}
+.first-lineform-input span{
+    display: table-cell;
+}
+
+.first-lineform-input span i{
+    background-color: white;
+    padding: 6px;
+    width: 33px;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    border: 1px solid #80808078;
+}
+
+.first-lineform-list{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #8080808a;
+}
+
+
+.form-section2{
+    display: flex;
+    padding: 29px 0;
+    flex-wrap: wrap;
+}
+
+.second-lineform-input{
+    display: table;
+}
+.second-lineform-input span{
+    display: table-cell;
+}
+
+.second-lineform-input span i{
+    background-color: white;
+    padding: 6px;
+    width: 33px;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    border: 1px solid #80808078;
+}
+
+.second-lineform-list{
+    width: 100%;
+    padding: 5px 45px;
+    border: 1px solid #8080808a;
+}
+
+.second-lineform-2a{
+    padding: 0 70px;
+}
+
+.second-lineform-2a-input{
+    display: table;
+}
+.second-lineform-2a-input span{
+    display: table-cell;
+}
+
+.second-lineform-2a-input span i{
+    background-color: white;
+    padding: 6px;
+    color: rgb(92, 92, 92);
+    width: 33px;
+    text-align: center;
+    border: 1px solid #80808078;
+}
+
+.second-lineform-2a-list{
+    width: 100%;
+    padding: 5px 45px;
+    border: 1px solid #8080808a;
+}
+
+.form-section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 18px 0;
+
+}
+
+.third-lineform-list{
+    width: 227px;
+    padding: 5px;
+    border: 1px solid #8080808a;
+
+
+}
+
+.button-container{
+    display: inline-block;
+    padding: 25px 0;
+}
+
+.button-container button{
+    padding: 5px;
+    border-radius: 13px;
+}
+
+.button-container button a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding: 16px;
+
+}
+
 
 .destination-container{
     width: 100%;
@@ -243,8 +311,6 @@
 }
 
 
-
-
 @media (max-width:768px){
 
     .navbar-logo{
@@ -265,44 +331,10 @@
         padding: 0;
     }
 
-    .welcome-section{
+    .flight-booking{
         width: 100%;
+        max-width: 700px;
     }
-
-    .welcome-text{
-        width: 100%;
-        padding: 7%;
-        padding-top: 24%;
-    }
-
-    .row-section-container{
-        padding: 3%;
-        width: 100%;
-    }
-
-    .row-icon1{
-        width: 100%;
-    }
-
-    .inner-row-content p{
-        text-align: justify;
-        width: 90%;
-        padding: 0 10px;
-
-    }
-
-    .row-line1 hr{
-        width: 16%;
-        top: 18%;
-        left: 26%;
-    }
-   
-    .row-line2 hr {
-        width: 16%;
-        top: 18%;
-        left: 57%;
-    }
-
 
     .destination-image-container{
         flex-wrap:wrap ;
@@ -322,6 +354,8 @@
     }
 
 }
+
+
 
 @media (max-width:1300px){
     .navbar-logo{
@@ -343,34 +377,6 @@
         padding: 0;
     }
 
-    .row-icon1{
-        width: 100%;
-    }
-
-    .inner-row-content p{
-        text-align: justify;
-        width: 90%;
-        padding: 0 10px;
-
-    }
-
-    .row-line1 hr{
-        width: 16%;
-        top: 21%;
-        left: 26%;
-    }
-   
-    .row-line2 hr {
-        width: 16%;
-        top: 21%;
-        left: 57%;
-    }
-
-    .row-section-container{
-        padding: 3%;
-        width: 100%;
-    }
-
     .destination-image-container{
         flex-wrap:wrap ;
         width: 100%;
@@ -387,9 +393,10 @@
         padding: 10%;
         padding-top: 0;
     }
+   
 
-    
 }
+
 
 @media (max-width:450px){
     .navbar-container{
@@ -422,17 +429,29 @@
         justify-content: flex-end;
     }
 
-    .row-section-container{
+    .flight-booking{
+        width: 100%;
+    }
+
+    .first-lineform-2a{
+        padding: 30px 0;
+    }
+
+    .second-lineform-2a{
+        padding: 30px 0;
+    }
+
+    .form-section3{
         flex-wrap: wrap;
+
     }
 
-    .row-line1 hr, .row-line2 hr{
-        display: none;
+    .third-lineform{
+        padding: 12px 0;
+        
     }
 
-    
-
-   .inner-destination-image{
+    .inner-destination-image{
         flex-direction: column;
        
    }
@@ -446,6 +465,7 @@
     }
 
 
+    
 }
 
 @media (width: 540px){
@@ -462,7 +482,9 @@
     .bottom-section-container{
         flex-direction: column;
     }
-}
+
+}    
+
 
 @media (max-width:330px){
     .inner-destination-image{
