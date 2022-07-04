@@ -30,22 +30,32 @@ body{
     border-radius: 25px;
 }
 .form{
+      box-shadow: 2px 2px 3px 3px rgba(197, 197, 199, 0.87);
+    width: 60%;
     padding: 12px 20px;
     margin:  8px 0;
     box-sizing: border-box;
+    border: none;
+}
+
+
+.booking-container{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
-.fa{
-    font-size: 30px;
-    
-}
-.button{
-    background-color: rgb(130, 209, 12);
-    text-decoration: none;
-    color:rgb(16, 2, 46) ;
+.confirm  {
+    background-color: gray;
+    color:rgb(0, 0, 0) ;
     text-align: center;
-    font-size: 16px;
-   padding: 12.8px 40px;
+    font-size: 13px;
+    border: none;
+    border-radius: 13px;
+   padding: 12.8px 20px;
    margin: 4px 2px;
 
+}
+
+.confirm:hover{
+    background-color:rgba(0, 0, 0, 0.226) ;   
 }
