@@ -36,6 +36,7 @@
     color: white;
     padding: 9px;
     font-size: 19px;
+    font-family: monospace;
 }
 
 .navbar-menu-list a:hover{
@@ -168,6 +169,11 @@
     width: 250px;
 }
 
+.abuja-image img:hover{
+    opacity: 0.8;
+    padding: 2px;
+}
+
 /* ..abuja-text style for all the texts in the about-section.. */
 .abuja-text{
     background-color: #0b0a0a4a;
@@ -211,16 +217,24 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    padding: 103px;
+    padding: 79px 94px;
     flex-wrap: wrap;
 }
 
+.abt-us-section h3{
+    font-size: 25px;
+}
 
 .abt-us-section a{
     color: white;
     display: block;
     text-decoration: none;
     padding: 5px;
+    font-family: cursive;
+}
+
+.support-section h3{
+    font-size: 25px;
 }
 
 .support-section a{
@@ -228,6 +242,11 @@
     display: block;
     text-decoration: none;
     padding: 5px;
+    font-family: cursive;
+}
+
+.manage-section h3{
+    font-size: 25px;
 }
 
 .manage-section a{
@@ -235,11 +254,17 @@
     display: block;
     text-decoration: none;
     padding: 5px;
+    font-family: cursive;
+}
+
+.follow-us-section h3{
+    font-size: 25px;
 }
 
 .follow-us-section a{
     color: white;
     text-decoration: none;
+    font-family: cursive;
 }
 
 
@@ -443,6 +468,19 @@
 
     .bottom-section-container{
         flex-direction: column;
+        text-align: center;
+    }
+
+    .support-section{
+        padding: 20% 0;
+    }
+
+    .manage-section{
+        padding: 20% 0;
+    }
+
+    .follow-us-section{
+        padding: 20% 0;
     }
 
 
@@ -461,6 +499,19 @@
 
     .bottom-section-container{
         flex-direction: column;
+        text-align: center;
+    }
+
+    .support-section{
+        padding: 10% 0;
+    }
+
+    .manage-section{
+        padding: 10% 0;
+    }
+
+    .follow-us-section{
+        padding: 10% 0;
     }
 }
 

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fstyle.css">
     <link rel="stylesheet" href="icons/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mastyle.css">
 
 </head>
 <body>
@@ -23,15 +24,17 @@
     <section class="navbar-section">
         <div class="navbar-container">
             <div class="navbar-logo">
-                <img src="image/logo-edit.png" alt="">
+                <a href="index.html">
+                  <img src="image/logo-edit.png" alt="">
+                </a>
             </div>
             <div class="navbar-menu">
                 <nav class="navbar-menu-container">
                     <ul class="navbar-menu-list">
                         <a href="index.html">HOME</a>
                         <a href="findex.html">FLIGHT</a>
-                        <a href="">MANAGE BOOKINGS</a>
-                        <a href="">ONLINE CHECK-IN</a>
+                        <a href="manage.html">MANAGE BOOKINGS</a>
+                        <a href="check.html">ONLINECHECK-IN</a>
                     </ul>
                 </nav>
             </div>
@@ -51,9 +54,9 @@
                     <div class="flight-round-onetrip-container">
                         <div>
                             <label for="">ROUND TRIP</label>
-                            <input type="radio" name="flight" value="ROUND-TRIP">
+                            <input type="radio" name="flight" value="ROUND-TRIP"  checked>
                             <label for="">ONE WAY</label>
-                            <input type="radio" name="flight" value="ONE-WAY" onclick="">
+                            <input type="radio" name="flight" value="ONE-WAY" >
 
                         </div>
 
@@ -115,13 +118,11 @@
                                     <div>
                                         <input type="date" autocomplete="off" class="second-lineform-list">
                                     </div>
-                                </div>
-                                
-
+                                </div>                                
                             </div>
 
                             <div class="second-lineform-2a" >
-                                <label for="">DEPARTURE DATE</label>
+                                <label for="">RETUNE DATE</label>
                                 <div class="second-lineform-2a-input">
                                     <span><i class="fas fa-calendar-alt"></i></span>
                                     <div>
@@ -191,7 +192,7 @@
 
                        <div class="flight-button">
                             <div class="button-container">
-                                <button><a href=""> Submit</a></button>
+                                <button type="submit">Submit</button>
                                 
                             </div>
                        </div>
